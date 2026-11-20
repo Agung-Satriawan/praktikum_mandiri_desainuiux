@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>PraktikumMandiri06</title>
+</head>
+<body>
+    <h2>Praktikum Mandiri06</h2>
+
+    <script>
+        // Code js
+        const namaMahasiswa = "lebron";
+        const nilaiTugas = 80;
+        const nilaiUTS = 85;
+        const nilaiUAS = 50;
+
+        //Menghitung nilai akhir
+        const nilaiAkhir = (nilaiTugas * 0.30) + (nilaiUTS * 0.30) + (nilaiUAS * 0.40);
+
+        // Percabangan
+        let statusKelulusan;
+        if (nilaiAkhir >= 60) {
+            statusKelulusan = "LULUS";
+        } else {
+            statusKelulusan = "TIDAK LULUS";
+        }
+
+        // Menampilkan output
+        console.log("Nama Mahasiswa:", namaMahasiswa);
+        console.log("Nilai Akhir:", nilaiAkhir);
+        console.log("Status Kelulusan:", statusKelulusan);
+    </script>
+</body>
+</html>
